@@ -11,6 +11,9 @@ if (!dir.exists("data")) {
   stop("Run this script from the project root (directory that contains 'data/' and 'scripts/').")
 }
 
+# Load pipeline config (paths, seeds, CV/tuning parameters)
+source(file.path("src", "config.R"))
+
 # Install packages if missing, then load them
 # Add package names to this vector as the project grows
 .pkgs <- c("tidyverse", "tidymodels", "glmnet")
