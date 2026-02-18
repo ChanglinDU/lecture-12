@@ -1,4 +1,4 @@
-# Lecture 09: Predicting article shares (Online News Popularity)
+# Lecture 10: Linear Models with CV and Regularization
 
 This repo trains and compares three linear models for predicting **log(shares)** (number of social shares of online news articles) from the [Online News Popularity](https://archive.ics.uci.edu/dataset/332/online+news+popularity) dataset. Performance is measured with **rMSE** (root mean squared error) and **MAE** (mean absolute error) in log space.
 
