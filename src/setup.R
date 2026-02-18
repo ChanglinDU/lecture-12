@@ -13,7 +13,7 @@ if (!dir.exists("data")) {
 
 # Install packages if missing, then load them
 # Add package names to this vector as the project grows
-.pkgs <- character(0)
+.pkgs <- c("tidyverse", "tidymodels", "glmnet")
 
 install_and_load <- function(pkgs = .pkgs) {
   if (length(pkgs) == 0L) return(invisible())
